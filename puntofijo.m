@@ -20,7 +20,7 @@ iteraciones = 150;
 #Asignando el valor de pn para la primera iteracion
         pn = (a+b)/2;
 #numero maximo de iteraciones segun formula
-        den = max(b-pn, pn-a)
+#        den = max(b-pn, pn-a)
         nmax = log((epsi/den)) / log(k);
 #       fprintf("El numero de iteracion esperado es: %f \n", ceil(nmax));
 
